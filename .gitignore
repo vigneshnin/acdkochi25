@@ -4,5 +4,5 @@
 
 node_modules
 
-public/shader-gradient/dist/
+public/shader-gradient/dist/*
 !/public/shader-gradient/dist/shaderbg-widget.js
