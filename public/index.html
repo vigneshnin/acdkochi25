@@ -80,18 +80,24 @@
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <video autoplay muted loop id="background-video">
-      <source src="assets/shader/acdkochi24shortbg2.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0"> <img src="assets/img/into_awsugkochi_cd.png" width="680" height="auto"> <br></h1>
       <p class="mb-4 pb-0">November 2025 <!--, Holiday Inn Cochin--></p>
       <a href="https://www.youtube.com/watch?v=wI6N_0z-pNE" class="glightbox play-btn mb-4"></a>
       <a href="#about" class="about-btn scrollto">Join us</a>
     </div>
+    <div id="shaderbg-root"
+        data-color1="#8b2be2"
+        data-color2="#00e5ff"
+        data-speed="0.7"
+        data-noise="0.12"
+        data-brightness="1.05"
+        data-grain="0.03"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
@@ -2179,6 +2185,8 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+      <script src="./shader-gradient/dist/shaderbg-widget.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
